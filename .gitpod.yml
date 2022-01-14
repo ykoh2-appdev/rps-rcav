@@ -1,13 +1,16 @@
-image: jelaniwoods/appdev2021-rps-rcav@sha256:539ce1bae979cd564ec0bda81886b103ce7e5a6a36e31aaa362ca7c0af21dfb9
+image: patrickmckernin/rpsrcav21
 
 tasks:
-  - command: bundle install
   - init: bin/setup
 ports:
   - port: 3000
     onOpen: open-preview
+  - port: 9515
+    onOpen: ignore
+
 
 vscode:
   extensions:
-    - shd101wyy.markdown-preview-enhanced
-    - wingrunr21.vscode-ruby
+    - vortizhe.simple-ruby-erb
+    - mbessey.vscode-rufo
+    - aliariff.vscode-erb-beautify
