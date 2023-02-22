@@ -2,7 +2,7 @@
   "editor.tabSize": 2,
   "editor.acceptSuggestionOnEnter": "off",
   "editor.bracketPairColorization.enabled": false,
-  "editor.cursorSurroundingLines": 8,
+  "editor.cursorSurroundingLines": 4,
   "editor.dragAndDrop": false,
   "editor.guides.bracketPairs": true,
   "editor.linkedEditing": true,
@@ -31,12 +31,6 @@
   "html.format.preserveNewLines": true,
   "html.format.templating": true,
   "terminal.integrated.altClickMovesCursor": true,
-  "[erb]":  {
-		"editor.formatOnSave": true
-  },
-  "[ruby]":  {
-		"editor.formatOnSave": true
-  },
   "vscode-erb-beautify.keepBlankLines": 1,
   "ruby.intellisense": false,
   "gitpod.openInStable.neverPrompt": true,
